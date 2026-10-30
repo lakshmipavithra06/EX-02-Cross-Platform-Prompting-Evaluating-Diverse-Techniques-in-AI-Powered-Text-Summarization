@@ -57,19 +57,20 @@ Despite its advantages, blockchain has some limitations. Some blockchain network
 In conclusion, blockchain is an innovative technology that provides a secure, transparent, and decentralized way of storing information. Although it has certain limitations, it has the potential to improve data management and transactions across different industries.
 
 ## 1. Basic Prompt
-Prompt:
-```
+## Prompt:
+
 Summarize the given article "The Basics of Blockchain Technology" in a short and understandable manner.
-```
+
+
 Output:
 
 Blockchain is a digital technology used to store information securely across multiple computers. It consists of connected blocks containing transaction details. Its important features include decentralization, transparency, and security. Blockchain is used in banking, healthcare, supply chain management, and smart contracts. However, it also has limitations such as high energy consumption, slow transactions, and implementation costs
 
 ## 2. Role Prompt
-Prompt:
-```
-Act as an experienced technical content writer. Read the article "The Basics of Blockchain Technology" and prepare a clear summary by identifying its main concepts, working process, features, applications, and limitations.
-```
+## Prompt:
+
+Act as an experienced technical content writer. Read the article "The Basics of Blockchain Technology" and prepare a clear summary by identifying its main concepts, working process, features, applications, and limitations. 
+
 
 Output:
 
@@ -83,10 +84,9 @@ Its working process involves:
 Its major features are decentralization, transparency, and security. It is used in banking, healthcare, supply chain management, and smart contracts. However, energy consumption, processing delays, and implementation costs remain important challenges.
 
 ## 3. Context Prompt
-Prompt:
-```
-I am an undergraduate Information Technology student learning about blockchain technology. I need to understand this topic for my academic studies. Summarize the article "The Basics of Blockchain Technology" using simple English. Explain the important concepts in a way that a beginner can easily understand.
-```
+## Prompt:
+I am an undergraduate Information Technology student learning about blockchain technology. I need to understand this topic for my academic studies. Summarize the article "The Basics of Blockchain Technology" using simple English. Explain the important concepts in a way that a beginner can easily understand. 
+
 Output:
 
 Blockchain is a technology that stores information securely using a network of computers.
@@ -98,8 +98,8 @@ Blockchain is a technology that stores information securely using a network of c
 Blockchain is used in banking, healthcare, product tracking, and smart contracts. It provides security and transparency but has challenges such as high energy usage, slow processing, and technical complexity.
 
 ## 4. Constraint Prompt
-Prompt:
-```
+## Prompt:
+
 Summarize the article "The Basics of Blockchain Technology" by following these conditions:
 
 1. Use simple English.
@@ -107,15 +107,15 @@ Summarize the article "The Basics of Blockchain Technology" by following these c
 3. Include the meaning, working process, important features, and applications of blockchain.
 4. Mention at least two limitations.
 5. Avoid unnecessary explanations.
-6. Do not include information that is not present in the original article.
-```
+6. Do not include information that is not present in the original article. 
+
 Output:
 
 Blockchain is a digital technology that stores information securely across multiple computers. It uses connected blocks containing transaction details and unique hashes. Transactions are verified by network participants through consensus before being added to the chain. Its main features include decentralization, transparency, and security. Blockchain is used in banking, healthcare, supply chain management, and smart contracts. However, it has limitations such as high energy consumption, slow transaction processing, implementation costs, and technical complexity.
 
 ## 5. Output Format Prompt
-Prompt:
-```
+## Prompt:
+
 Act as a technical educator preparing study material for undergraduate students. Summarize the article "The Basics of Blockchain Technology" using simple English.
 
 Follow these instructions:
@@ -133,7 +133,7 @@ Key Features:
 Applications:
 Limitations:
 Conclusion:
-```
+
 Output:
 
 Title: The Basics of Blockchain Technology
