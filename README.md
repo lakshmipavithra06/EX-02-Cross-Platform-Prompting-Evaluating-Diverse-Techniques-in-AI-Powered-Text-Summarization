@@ -38,7 +38,6 @@ User experience
 
 ## Input Article
 ## Title: The Basics of Blockchain Technology
-## Article: The Basics of Blockchain Technology
 
 Blockchain technology is a digital system used to store and share information securely across multiple computers. It is commonly known for supporting cryptocurrencies such as Bitcoin, but its applications extend to healthcare, banking, supply chain management, and many other industries.
 
@@ -57,22 +56,25 @@ Despite its advantages, blockchain has some limitations. Some blockchain network
 In conclusion, blockchain is an innovative technology that provides a secure, transparent, and decentralized way of storing information. Although it has certain limitations, it has the potential to improve data management and transactions across different industries.
 
 ## 1. Basic Prompt
+
+A Basic Prompt is a simple instruction given to an AI model to perform a specific task without providing additional details or conditions.
+
 ## Prompt:
-
+`
 Summarize the given article "The Basics of Blockchain Technology" in a short and understandable manner.
-
-
-Output:
-
+`
+## Output:
 Blockchain is a digital technology used to store information securely across multiple computers. It consists of connected blocks containing transaction details. Its important features include decentralization, transparency, and security. Blockchain is used in banking, healthcare, supply chain management, and smart contracts. However, it also has limitations such as high energy consumption, slow transactions, and implementation costs
 
-## 2. Role Prompt
+## 2. Role Prompt:
+
+A Role Prompt assigns a specific role or identity to the AI model so that it can generate responses from that particular perspective.
+
 ## Prompt:
-
+`
 Act as an experienced technical content writer. Read the article "The Basics of Blockchain Technology" and prepare a clear summary by identifying its main concepts, working process, features, applications, and limitations. 
-
-
-Output:
+`
+## Output:
 
 Blockchain is a digital technology that stores information in connected blocks across a distributed network of computers.
 
@@ -83,11 +85,16 @@ Its working process involves:
 - Adding approved blocks to the existing chain.
 Its major features are decentralization, transparency, and security. It is used in banking, healthcare, supply chain management, and smart contracts. However, energy consumption, processing delays, and implementation costs remain important challenges.
 
-## 3. Context Prompt
-## Prompt:
-I am an undergraduate Information Technology student learning about blockchain technology. I need to understand this topic for my academic studies. Summarize the article "The Basics of Blockchain Technology" using simple English. Explain the important concepts in a way that a beginner can easily understand. 
+## 3. Context Prompt:
 
-Output:
+A Context Prompt provides background information about the task, target audience, or purpose to help the AI model generate a more relevant and meaningful response.
+
+## Prompt:
+`
+I am an undergraduate Information Technology student learning about blockchain technology. I need to understand this topic for my academic studies. Summarize the article "The Basics of Blockchain Technology" using simple English. Explain the important concepts in a way that a beginner can easily understand. 
+`
+
+## Output:
 
 Blockchain is a technology that stores information securely using a network of computers.
 - Blocks: Digital records that contain transaction information.
@@ -97,59 +104,79 @@ Blockchain is a technology that stores information securely using a network of c
 - Decentralization: Information is shared across multiple computers instead of being controlled by one authority.
 Blockchain is used in banking, healthcare, product tracking, and smart contracts. It provides security and transparency but has challenges such as high energy usage, slow processing, and technical complexity.
 
-## 4. Constraint Prompt
+## 4. Constraint Prompt:
+
+A Constraint Prompt provides specific rules or limitations that the AI model must follow while generating the response, such as word limits, language, and content requirements.
+
 ## Prompt:
 
-Summarize the article "The Basics of Blockchain Technology" by following these conditions:
+`Summarize the article "The Basics of Blockchain Technology" by following these conditions:`
 
-1. Use simple English.
-2. Keep the summary between 80 and 100 words.
-3. Include the meaning, working process, important features, and applications of blockchain.
-4. Mention at least two limitations.
-5. Avoid unnecessary explanations.
-6. Do not include information that is not present in the original article. 
+`1. Use simple English.`
 
-Output:
+`2. Keep the summary between 80 and 100 words.`
+
+`3. Include the meaning, working process, important features, and applications of blockchain.`
+
+`4. Mention at least two limitations.`
+
+`5. Avoid unnecessary explanations.`
+
+`6. Do not include information that is not present in the original article.` 
+
+## Output:
 
 Blockchain is a digital technology that stores information securely across multiple computers. It uses connected blocks containing transaction details and unique hashes. Transactions are verified by network participants through consensus before being added to the chain. Its main features include decentralization, transparency, and security. Blockchain is used in banking, healthcare, supply chain management, and smart contracts. However, it has limitations such as high energy consumption, slow transaction processing, implementation costs, and technical complexity.
 
-## 5. Output Format Prompt
+## 5. Output Format Prompt:
+
+An Output Format Prompt specifies how the AI-generated response should be organized or presented, such as using headings, bullet points, tables, or paragraphs.
+
 ## Prompt:
 
-Act as a technical educator preparing study material for undergraduate students. Summarize the article "The Basics of Blockchain Technology" using simple English.
+`Act as a technical educator preparing study material for undergraduate students. Summarize the article "The Basics of Blockchain Technology" using simple English.`
 
-Follow these instructions:
-1. Keep the summary between 100 and 120 words.
-2. Include only important information from the article.
-3. Explain the concepts in a beginner-friendly manner.
-4. Do not add external information.
+`Follow these instructions:`
 
-Present the output using the following format:
+`1. Keep the summary between 100 and 120 words.`
 
-Title:
-Introduction:
-Working:
-Key Features:
-Applications:
-Limitations:
-Conclusion:
+`2. Include only important information from the article.`
 
-Output:
+`3. Explain the concepts in a beginner-friendly manner.`
+
+`4. Do not add external information.`
+
+`Present the output using the following format:`
+
+`Title:`
+
+`Introduction:`
+
+`Working:`
+
+`Key Features:`
+
+`Applications:`
+
+`Limitations:`
+
+`Conclusion:`
+
+## Output:
 
 Title: The Basics of Blockchain Technology
 
 Introduction:
-
 Blockchain is a digital technology used to store information securely across multiple computers.
 
 Working:
-
 Transactions are verified by network participants and stored in connected blocks using a consensus process.
 
 Key Features:
 - Decentralization
 - Transparency
 - Security
+
 Applications:
 - Banking and financial transactions
 - Healthcare records
@@ -160,19 +187,91 @@ Limitations:
 - Slow transaction processing
 - Implementation costs
 Conclusion:
-
 Blockchain provides a secure and transparent way of storing information and has the potential to improve different industries.
+
+## AI Platform Evaluation:
+
+## ChatGPT + Zero-Shot Prompting:
+
+## Prompt:
+`
+Summarize the following Blockchain Technology article using simple language suitable for undergraduate students.
+`
+## output:
+Blockchain is a distributed digital ledger that securely stores data across multiple computers instead of relying on a single authority. Information is organized into linked blocks protected through cryptography, ensuring security and transparency. The technology is widely used in cryptocurrencies such as Bitcoin and is also applied in sectors including banking, healthcare, and supply chain management. Although blockchain offers improved trust and security, it still faces issues related to scalability and high energy consumption.
+
+## Evaluation:
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/a61b132a-f8a0-4629-b3c8-b2450c191814" />|
+
+## Gemini + Few-Shot Prompting:
+
+## Prompt:
+`
+Review the following sample summaries and create a summary of the blockchain article in the same style.
+`
+## Output:
+Blockchain is a decentralized digital ledger that stores records in interconnected blocks. Since every participant shares the same version of the data, the system becomes transparent and resistant to tampering. It is the foundation of cryptocurrency networks and also supports applications in finance, healthcare, and logistics. Despite its benefits, blockchain continues to face limitations such as slower processing speeds and increased energy requirements.
+
+## Evaluation:
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b878b211-0850-45a4-825f-cd5a97419de2" />
+
+## Claude AI + Chain-of-Thought Prompting:
+
+## Prompt:
+`
+Carefully analyze the article, identify the main concepts step by step, and then prepare a concise summary suitable for undergraduate students.
+`
+## Output:
+Blockchain is a decentralized ledger technology that records transactions securely across a network of computers. Transactions are grouped into blocks, which are linked together using cryptographic hashes to maintain integrity. Consensus mechanisms such as Proof of Work and Proof of Stake ensure secure validation of transactions. Blockchain is extensively used in cryptocurrency systems and has growing applications in banking, healthcare, and supply chain management. Its primary strengths include transparency and security, while scalability and energy consumption remain significant challenges.
+
+## Evaluation:
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/33485f76-db54-41f0-b754-983174bae5e8" />
+
+## Microsoft Copilot + Role-Based Prompting:
+
+## Prompt:
+`
+Act as a university instructor and provide a brief explanation of blockchain technology for undergraduate students.
+`
+## output:
+Blockchain is a digital technology that stores information in connected blocks across multiple computer systems. Because the information is shared among many participants, it is highly secure and difficult to alter. The technology reduces dependence on central authorities while improving transparency and trust. Blockchain is widely used in cryptocurrency and financial applications, although concerns such as energy usage and transaction speed continue to exist.
+
+## Evaluation:
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/db5fe72f-6ea8-47d4-bae0-e8dc8e0e441d" />
 
 ## Comparative Analysis:
 
+<img width="907" height="267" alt="Screenshot 2026-11-02 110400" src="https://github.com/user-attachments/assets/b8660d25-e66f-45f9-8bd2-f3a737bbe706" />
 
-<img width="911" height="297" alt="image" src="https://github.com/user-attachments/assets/389e2773-8af9-4544-893f-5094ec8a295b" />
 
-## Result
-The experiment successfully demonstrates how different prompt structures influence the quality of AI-generated text summaries.
 
-Starting with a basic prompt and gradually adding a role, context, constraints, and output formatting instructions improves the relevance, clarity, simplicity, and organization of the generated response.
+<img width="880" height="238" alt="Screenshot 2026-11-02 110309" src="https://github.com/user-attachments/assets/4fcd7da0-05e6-4cb9-b688-aeb49befe97d" />
 
-The Output Format Prompt produces a well-structured educational summary that is easier for undergraduate students to understand and use for academic preparation.
+## Result:
+
+The experiment compared different prompting techniques across various AI platforms for summarizing a Blockchain Technology article.
+
+The results showed that:
+
+- Claude AI produced the most accurate and well-organized summary.
+- ChatGPT provided simple and clear summaries very quickly.
+- Gemini generated accurate summaries with good organization.
+- Microsoft Copilot produced short and beginner-friendly summaries.
+
+Overall, each AI platform performed differently, and the choice of prompting technique helped improve the quality of the summaries.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
